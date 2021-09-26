@@ -68,8 +68,8 @@ class SignUpVendor extends StatelessWidget {
                           style: TextStyle(fontSize: 30),
                         ),
                         onPressed: () {
-                           Navigator.push(
-              context, MaterialPageRoute(builder:(context) => Login2()));},
+                           Navigator.pushReplacement(context, MaterialPageRoute(builder:(context) => Login2())
+                           );}
           
                         
                       )),
